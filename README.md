@@ -1,11 +1,12 @@
 # Cucumber API Testing Demo
 
-This project demonstrates API-level test automation using Cucumber (BDD)
-in a Java/Maven setup.
+Demo project showing API-level test automation with Cucumber (BDD) using Java and Maven.
+The project uses a simple dummy authentication API to focus on test structure and behavior.
 
-The system under test is a lightweight dummy authentication API.
-The focus is on test structure, readability, and behavior rather than
-infrastructure or business logic.
+## How to run
 
-This repository contains fictional example code created for demonstration
-purposes only. It does not include proprietary or confidential information.
+Requires Java 17+ and Maven.
+
+git clone https://github.com//cucumber-api-testing-demo.git
+cd cucumber-api-testing-demo
+mvn test
